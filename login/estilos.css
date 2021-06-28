@@ -1,0 +1,129 @@
+				*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: linear-gradient(45deg, #8e2de2, #4a00e0);
+			/*background: url("https://abglt.org.br/wp-content/uploads/2020/10/wallpaper-pc1-scaled.jpg") center;/* center right ;*/
+			/*background: url("https://abglt.org.br/wp-content/uploads/2020/10/wallpaper-pc1-scaled.jpg") center/cover ;*/
+
+		}
+		#login{
+			padding: 30px;
+			height: 420px;
+			width: 320px;
+			background-color:#6f00ff;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			margin: auto;
+			border-radius: 80px 0 80px 0;
+			color: white;
+		}
+
+		h1.center{
+			text-align: center;
+			font-size: 2.5rem;
+			padding-bottom: 0.5rem;
+			margin-bottom: 2rem;
+		}
+		h1 a{
+			color: white;
+			text-decoration: none;
+		}
+		h1 a:hover{
+			color: rgb(140, 0, 255);
+			text-decoration: none;
+		}
+
+		.caixa{
+			color: white;
+			font-size: 17px;
+			letter-spacing: 2px;
+			background-color: transparent;
+			display: inline-block;
+			width: 20rem;
+			padding: 4px;
+			border: none;
+			outline: none;
+			border-bottom:1px solid white;
+			margin-bottom: 20px;
+		}
+
+		.caixa:focus{
+			border: 1px solid black;
+		}
+		.caixa::placeholder{
+			color: black;
+		}
+
+		.entrar{
+			display: block;
+			width: 100%;
+			padding: 5px;
+			background-color: transparent;
+			border: 1px solid white;
+			outline: none;
+		}
+		.entrar:hover{
+			background-color: black;
+			color: white;
+			border: 1px solid black;
+		}
+		.esq {
+			padding-top: 20px;
+			display: inline-block;
+		}
+		.esq a{
+			color: black;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.esq a:hover{
+			color: red;
+			
+		}
+		.quad{
+			display:inline-block;
+			padding:10px;
+		}
+		.goup{
+			position:absolute;
+			left: 17.5px;
+			margin-top: 20px;
+		}
+		.cad{
+			display: inline-block;
+			margin-left: 6.5rem;
+		}
+		.cad input {
+			width: 102px;
+			padding:5px;
+			background-color: transparent;
+			outline: none;
+			border: 1px solid white;
+		}
+		.cad input:hover {
+			background-color: black;
+			color: white;
+			border: none;
+		}
+		.lem{
+			font-size: 18px;
+		}
+
+		
+		.branco{
+			color: white;
+			text-decoration: none;
+			font-size: 2.5rem;
+		}
+		.branco:hover{
+			color: rgb(140, 0, 255);			
+<<<<<<< HEAD:main/estilos.css
+		}
+=======
+		}
+>>>>>>> 33f18c8cf316371feac21bd9c1759366aa2e4bc5:estilos.css
